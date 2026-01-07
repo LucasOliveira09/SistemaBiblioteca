@@ -1,0 +1,6 @@
+inherited Form1: TForm1
+  Left = 1034
+  Height = 240
+  Top = 103
+  Width = 320
+end

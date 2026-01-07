@@ -1,0 +1,14 @@
+{
+	"name": "Projeto 8, segurança api",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse-compression": "^1.1.13",
+		"github.com/hashload/horse-cors": "^1.0.7",
+		"github.com/hashload/horse-jwt": "^2.0.18",
+		"github.com/hashload/jhonson": "^1.2.1"
+	}
+}

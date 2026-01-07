@@ -1,0 +1,56 @@
+object FrmLogin: TFrmLogin
+  Left = 519
+  Height = 667
+  Top = 193
+  Width = 842
+  Caption = 'FrmLogin'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '4.4.0.0'
+  object Label1: TLabel
+    Left = 368
+    Height = 37
+    Top = 80
+    Width = 78
+    Caption = 'LOGIN'
+    Font.Height = -27
+    ParentFont = False
+  end
+  object edtEmail: TEdit
+    Left = 272
+    Height = 36
+    Top = 176
+    Width = 280
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtSenha: TEdit
+    Left = 272
+    Height = 30
+    Top = 232
+    Width = 280
+    Font.CharSet = SYMBOL_CHARSET
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnEntrar: TButton
+    Left = 429
+    Height = 49
+    Top = 320
+    Width = 123
+    Caption = 'Entrar'
+    TabOrder = 2
+    OnClick = btnEntrarClick
+  end
+  object btnSair: TButton
+    Left = 272
+    Height = 49
+    Top = 320
+    Width = 123
+    Caption = 'Sair'
+    TabOrder = 3
+    OnClick = btnSairClick
+  end
+end

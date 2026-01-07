@@ -1,0 +1,7 @@
+inherited Tfomr: TTfomr
+  Left = 1152
+  Height = 240
+  Top = 156
+  Width = 320
+  Caption = 'Tfomr'
+end

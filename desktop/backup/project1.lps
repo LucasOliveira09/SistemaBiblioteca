@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BibliotecaDesktop"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="7"/>
+        <CursorPos X="23" Y="47"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformlivros.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmLivros"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormLivros"/>
+        <TopLine Value="213"/>
+        <CursorPos X="8" Y="239"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\ulivrodao.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="43"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Tfomr"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivroDAO"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="178"/>
+        <CursorPos X="24" Y="188"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\ulivro.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="43"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\ulivro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivro"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="43"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dados\umodulodados.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="43"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dados\umodulodados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModule2"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uModuloDados"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="23"/>
+        <CursorPos X="22" Y="45"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uusuariodao.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="43"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uusuariodao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUsuarioDAO"/>
+        <EditorIndex Value="15"/>
+        <CursorPos X="34" Y="23"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uusuarioservice.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="42"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uusuarioservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUsuarioService"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="17"/>
+        <CursorPos X="41" Y="45"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformprincipal.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="42"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormPrincipal"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="77"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uautor.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uAutor"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uemprestimo.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uemprestimo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uEmprestimo"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uemprestimoservice.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uemprestimoservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uEmprestimoService"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\ulivroservice.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivroService"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uautoresdao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uAutoresDAO"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="75"/>
+        <CursorPos X="17" Y="100"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uemprestimosdao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uEmprestimosDAO"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="91"/>
+        <CursorPos X="6" Y="67"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformautor.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="4"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormAutor"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="215"/>
+        <CursorPos X="16" Y="224"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uautorservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uAutorService"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="20"/>
+        <CursorPos X="9" Y="37"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmEmprestimo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormEmprestimo"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="71"/>
+        <CursorPos X="3" Y="91"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformlogin.pas"/>
+        <ComponentName Value="FrmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormLogin"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="7"/>
+        <CursorPos X="10" Y="50"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Projeto 6, CRUD\frmcliente.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="246"/>
+        <CursorPos X="16" Y="259"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Projeto 6, CRUD\frmcliente.pas"/>
+        <UnitName Value="frmCliente"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="251"/>
+        <CursorPos X="5" Y="280"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="view\uformlivros.lfm"/>
+        <EditorIndex Value="17"/>
+        <CursorPos X="29" Y="18"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\rtl-generics\src\generics.collections.pas"/>
+        <UnitName Value="Generics.Collections"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1170"/>
+        <CursorPos X="20" Y="1186"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="view\uformautor.pas"/>
+        <Caret Line="164" Column="31" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformautor.pas"/>
+        <Caret Line="19" Column="35" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformprincipal.pas"/>
+        <Caret Line="58" Column="6" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformprincipal.pas"/>
+        <Caret Line="80" Column="24" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\uemprestimosdao.pas"/>
+        <Caret Line="35" Column="37" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformprincipal.pas"/>
+        <Caret Line="35" Column="43" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="9" Column="51"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="34" Column="22" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="40" Column="3" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="38" Column="48" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="41" Column="38" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="44" Column="12" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="46" Column="12" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="32" Column="24" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="33" Column="24" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="34" Column="24" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="36" Column="24" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="71" Column="8" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="81" Column="3" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\uemprestimosdao.pas"/>
+        <Caret Line="61" Column="13" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="80" Column="52" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="79" Column="16" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\uemprestimosdao.pas"/>
+        <Caret Line="55" Column="33" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="72" Column="12" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="71" Column="3" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="11" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="89" Column="12" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformemprestimo.pas"/>
+        <Caret Line="8" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformautor.pas"/>
+        <Caret Line="226" Column="16" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="view\uformlivros.pas"/>
+        <Caret Line="271" Column="22" TopLine="247"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

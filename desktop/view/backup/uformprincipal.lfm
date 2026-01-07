@@ -1,0 +1,52 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 494
+  Height = 678
+  Top = 140
+  Width = 862
+  Caption = 'FrmPrincipal'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '4.4.0.0'
+  object inutil: TLabel
+    Left = 792
+    Height = 49
+    Top = 240
+    Width = 384
+    Caption = 'Sistema Biblioteca'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -40
+    Font.Name = 'Sharkartoon'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btnLivros: TButton
+    Left = 600
+    Height = 184
+    Top = 343
+    Width = 216
+    Caption = 'btnLivros'
+    TabOrder = 0
+    OnClick = btnLivrosClick
+  end
+  object btnAutores: TButton
+    Left = 848
+    Height = 185
+    Top = 343
+    Width = 227
+    Caption = 'btnAutores'
+    TabOrder = 1
+    OnClick = btnAutoresClick
+  end
+  object btnEmprestimos: TButton
+    Left = 1104
+    Height = 186
+    Top = 343
+    Width = 232
+    Caption = 'btnEmprestimos'
+    TabOrder = 2
+    OnClick = btnEmprestimosClick
+  end
+end

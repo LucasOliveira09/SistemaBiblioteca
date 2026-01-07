@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\uformautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormAutor"/>
+        <CursorPos X="15" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uformautor.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="310"/>
+        <CursorPos X="4" Y="342"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\uformautor.lfm"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="297"/>
+        <CursorPos X="12" Y="300"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="6">
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Line="305" Column="11" TopLine="302"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Line="5" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Line="375" Column="4" TopLine="343"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Column="6"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Line="7" Column="2"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.lfm"/>
+        <Caret Line="5" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="..\uformautor.pas"/>
+        <Caret Line="7" Column="15"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

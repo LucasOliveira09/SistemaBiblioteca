@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="15" Y="9"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\ulivroservice.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uLivroService"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="67"/>
+        <CursorPos X="17" Y="83"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uusuarioservice.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\services\uusuarioservice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uUsuarioService"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers\ulivroscontroller.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers\ulivroscontroller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uLivrosController"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos X="43" Y="30"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uautor.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uAutor"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uemprestimo.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\uemprestimo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uEmprestimo"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\ulivro.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\entidades\ulivro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uLivro"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="21" Y="24"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uautoresdao.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uautoresdao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uAutoresDAO"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uemprestimosdao.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\uemprestimosdao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <UnitName Value="uEmprestimosDAO"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\ulivrodao.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Tfomr"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivroDAO"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="61"/>
+        <CursorPos X="51" Y="77"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dados\umodulodados.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\dados\umodulodados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModule2"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uModuloDados"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uClienteController"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="21"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="28">
+      <Position>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="9" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="9" Column="38"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="8" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="19" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="15" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="8" Column="88"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="25" Column="7" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="15" Column="24" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="26" Column="5" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="8" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="13" Column="31" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="10" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="16" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="55" Column="57" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="70" Column="55" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="..\entidades\ulivro.pas"/>
+        <Caret Line="24" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="70" Column="42" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="81" Column="68" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="80" Column="62" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="20" Column="36" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="17" Column="38" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="46" Column="37" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="95" Column="20" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="83" Column="22" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="76" Column="26" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="20" Column="40" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="..\dao\ulivrodao.pas"/>
+        <Caret Line="77" Column="51" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="..\services\ulivroservice.pas"/>
+        <Caret Line="83" Column="17" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers\ulivroscontroller.pas"/>
+        <Caret Line="8" Column="69" TopLine="11"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
