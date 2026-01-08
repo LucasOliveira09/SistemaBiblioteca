@@ -2,8 +2,8 @@
 
 ## Como baixar o projeto:
 
-Para baixar o projeto precisarememos acessar o seguinte link: 
-[Link](https://github.com/LucasOliveira09/SistemaBiblioteca) (Clique com Cntrl encima do link para acessa-lo).
+Para baixar o projeto acesse o seguinte link: 
+[Link](https://github.com/LucasOliveira09/SistemaBiblioteca).
 
 - Após acessar o link Clique no botão verde escrito **<>Code**.
 - E então clique em Dowload Zip.
@@ -17,7 +17,7 @@ Para rodar a versão visual do projeto, precisamos acessar a pasta **Desktop** e
 Assim abrirá uma janela para efetuar login e rodar o projeto!
 Para efetuar login e visualizar o projeto use o seguinte **Usuario**:
 
-**Usuario**
+**Usuário**
 
 Email: admin@gmail.com 
 
