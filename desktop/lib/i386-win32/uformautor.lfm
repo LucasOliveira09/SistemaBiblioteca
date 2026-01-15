@@ -1,11 +1,11 @@
 object FrmAutor: TFrmAutor
-  Left = 999
+  Left = 1031
   Height = 686
-  Top = 135
+  Top = 100
   Width = 859
   Caption = 'FrmLivros'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 686
+  ClientWidth = 859
   LCLVersion = '4.4.0.0'
   OnShow = FormShow
   object Topo: TPanel

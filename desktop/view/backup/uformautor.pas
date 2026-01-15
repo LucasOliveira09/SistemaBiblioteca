@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
   ExtCtrls, DB, ZDataset, ZConnection, uAutor, uAutoresDAO, uModuloDados,
-  uAutorService;
+  uAutorService, mensagens;
 
 type
 
@@ -254,8 +254,13 @@ begin
 
   Service := TAutorService.Create(GetConnection);
   try
+      if TMensagens.MsgPergunta('Tem certeza que deseja deletar?') = IDYES then
+      begin
       Service.Deletar(ID);
-      ShowMessage('Autor Excluído!');
+      ShowMessage('Autor excluido!');
+      end;
+
+
 
       EsconderTudo;
       DAO.ListarAutoresParaDataset(ZQuery1);

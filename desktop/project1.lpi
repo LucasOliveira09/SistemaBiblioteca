@@ -205,6 +205,10 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFormEmprestimo"/>
       </Unit>
+      <Unit>
+        <Filename Value="view\mensagens.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
