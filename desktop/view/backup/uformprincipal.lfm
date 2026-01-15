@@ -1,16 +1,16 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 494
+  Left = 1209
   Height = 678
-  Top = 140
+  Top = 203
   Width = 862
   Caption = 'FrmPrincipal'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 678
+  ClientWidth = 862
   LCLVersion = '4.4.0.0'
   object inutil: TLabel
-    Left = 792
+    Left = 256
     Height = 49
-    Top = 240
+    Top = 144
     Width = 384
     Caption = 'Sistema Biblioteca'
     Font.CharSet = ANSI_CHARSET
@@ -23,27 +23,27 @@ object FrmPrincipal: TFrmPrincipal
     ParentFont = False
   end
   object btnLivros: TButton
-    Left = 600
+    Left = 64
     Height = 184
-    Top = 343
+    Top = 247
     Width = 216
     Caption = 'btnLivros'
     TabOrder = 0
     OnClick = btnLivrosClick
   end
   object btnAutores: TButton
-    Left = 848
+    Left = 312
     Height = 185
-    Top = 343
+    Top = 247
     Width = 227
     Caption = 'btnAutores'
     TabOrder = 1
     OnClick = btnAutoresClick
   end
   object btnEmprestimos: TButton
-    Left = 1104
+    Left = 568
     Height = 186
-    Top = 343
+    Top = 247
     Width = 232
     Caption = 'btnEmprestimos'
     TabOrder = 2

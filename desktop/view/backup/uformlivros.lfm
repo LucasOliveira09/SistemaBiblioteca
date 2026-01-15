@@ -1,331 +1,390 @@
 object FrmLivros: TFrmLivros
-  Left = 540
+  Left = 999
   Height = 839
-  Top = 97
+  Top = 124
   Width = 859
   Caption = 'FrmLivros'
-  ClientHeight = 839
-  ClientWidth = 859
+  ClientHeight = 0
+  ClientWidth = 0
   LCLVersion = '4.4.0.0'
   OnShow = FormShow
-  object DBGrid1: TDBGrid
-    Left = 160
-    Height = 168
-    Top = 96
-    Width = 560
-    Color = clWindow
-    Columns = <>
-    DataSource = DataSource1
-    TabOrder = 0
-  end
-  object Label1: TLabel
-    Left = 384
-    Height = 49
-    Top = 24
-    Width = 130
-    Caption = 'LIVROS'
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clNavy
-    Font.Height = -40
-    Font.Name = 'Sharkartoon'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-  end
-  object btnVoltar: TButton
+  object TopoPanel: TPanel
     Left = 0
-    Height = 57
+    Height = 98
     Top = 0
-    Width = 144
-    Caption = 'Voltar'
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clNavy
-    Font.Height = -23
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
+    Width = 866
+    ClientHeight = 98
+    ClientWidth = 866
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 376
+      Height = 49
+      Top = 24
+      Width = 130
+      Caption = 'LIVROS'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -40
+      Font.Name = 'Sharkartoon'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+    end
+    object btnVoltar: TButton
+      Left = 16
+      Height = 57
+      Top = 16
+      Width = 128
+      Caption = 'Voltar'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -23
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnVoltarClick
+    end
+  end
+  object DBGridPanel: TPanel
+    Left = 1
+    Height = 280
+    Top = 97
+    Width = 858
+    Caption = 'DBGridPanel'
+    ClientHeight = 280
+    ClientWidth = 858
+    ParentBackground = False
     TabOrder = 1
-    OnClick = btnVoltarClick
+    object DBGrid1: TDBGrid
+      Left = 144
+      Height = 168
+      Top = 16
+      Width = 560
+      Color = clWindow
+      Columns = <>
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+    object Criar: TButton
+      Left = 144
+      Height = 65
+      Top = 184
+      Width = 144
+      Caption = 'Criar'
+      TabOrder = 1
+      OnClick = CriarClick
+    end
+    object Atualizar: TButton
+      Left = 288
+      Height = 65
+      Top = 184
+      Width = 136
+      Caption = 'Atualizar'
+      TabOrder = 2
+      OnClick = AtualizarClick
+    end
+    object Procurar: TButton
+      Left = 424
+      Height = 66
+      Top = 183
+      Width = 136
+      Caption = 'Procurar'
+      TabOrder = 3
+      OnClick = ProcurarClick
+    end
+    object Deletar: TButton
+      Left = 560
+      Height = 65
+      Top = 184
+      Width = 144
+      Caption = 'Deletar'
+      TabOrder = 4
+      OnClick = DeletarClick
+    end
   end
-  object Criar: TButton
-    Left = 160
-    Height = 65
-    Top = 264
-    Width = 144
-    Caption = 'Criar'
+  object AtualizarPanel: TPanel
+    Left = 0
+    Height = 455
+    Top = 384
+    Width = 858
+    ClientHeight = 455
+    ClientWidth = 858
     TabOrder = 2
-    OnClick = CriarClick
+    object AtualizarLabel4: TLabel
+      Left = 448
+      Height = 45
+      Top = 232
+      Width = 113
+      Caption = 'AutorID'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object AtualizarLabel5: TLabel
+      Left = 448
+      Height = 45
+      Top = 112
+      Width = 223
+      Caption = 'Ano Publicação'
+      Font.Height = -33
+      ParentFont = False
+      OnClick = AtualizarLabel5Click
+    end
+    object AtualizarLabel6: TLabel
+      Left = 144
+      Height = 45
+      Top = 232
+      Width = 71
+      Caption = 'ISBN'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object EditAtualizar5: TEdit
+      Left = 448
+      Height = 36
+      Top = 168
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 0
+      Text = 'EditAtualizar5'
+    end
+    object EditAtualizar6: TEdit
+      Left = 448
+      Height = 36
+      Top = 280
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 1
+      Text = 'EditAtualizar6'
+    end
+    object EditAtualizar7: TEdit
+      Left = 144
+      Height = 36
+      Top = 280
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 2
+      Text = 'EditAtualizar7'
+    end
+    object AtualizarLabel7: TLabel
+      Left = 144
+      Height = 45
+      Top = 112
+      Width = 82
+      Caption = 'Titulo'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object EditAtualizar2: TEdit
+      Left = 288
+      Height = 36
+      Top = 64
+      Width = 272
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 3
+      Text = 'EditAtualizar2'
+    end
+    object AtualizarLabel8: TLabel
+      Left = 408
+      Height = 45
+      Top = 8
+      Width = 32
+      Caption = 'ID'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object BtnAtualizar: TButton
+      Left = 288
+      Height = 48
+      Top = 352
+      Width = 272
+      Caption = 'BtnAtualizar1'
+      TabOrder = 4
+      OnClick = BtnAtualizarClick
+    end
+    object EditAtualizar1: TEdit
+      Left = 144
+      Height = 36
+      Top = 168
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 5
+      Text = 'EditAtualizar1'
+    end
   end
-  object Atualizar: TButton
-    Left = 304
-    Height = 65
-    Top = 264
-    Width = 136
-    Caption = 'Atualizar'
+  object InserirPanel: TPanel
+    Left = 0
+    Height = 464
+    Top = 374
+    Width = 857
+    ClientHeight = 464
+    ClientWidth = 857
     TabOrder = 3
-    OnClick = AtualizarClick
+    object EditCriar: TEdit
+      Left = 144
+      Height = 36
+      Top = 88
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 0
+      Text = 'EditCriar'
+    end
+    object CriarLabel: TLabel
+      Left = 144
+      Height = 45
+      Top = 32
+      Width = 82
+      Caption = 'Titulo'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object CriarLabel1: TLabel
+      Left = 145
+      Height = 45
+      Top = 136
+      Width = 113
+      Caption = 'AutorID'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object CriarLabel2: TLabel
+      Left = 448
+      Height = 45
+      Top = 32
+      Width = 223
+      Caption = 'Ano Publicação'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object CriarLabel3: TLabel
+      Left = 448
+      Height = 45
+      Top = 136
+      Width = 71
+      Caption = 'ISBN'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object EditCriar2: TEdit
+      Left = 448
+      Height = 36
+      Top = 88
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 1
+      Text = 'EditCriar2'
+    end
+    object EditCriar3: TEdit
+      Left = 144
+      Height = 36
+      Top = 184
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 2
+      Text = 'EditCriar3'
+    end
+    object EditCriar4: TEdit
+      Left = 448
+      Height = 36
+      Top = 184
+      Width = 256
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 3
+      Text = 'EditCriar4'
+    end
+    object BtnCriar: TButton
+      Left = 288
+      Height = 48
+      Top = 256
+      Width = 272
+      Caption = 'BtnCriar'
+      TabOrder = 4
+      OnClick = BtnCriarClick
+    end
   end
-  object Procurar: TButton
-    Left = 440
-    Height = 66
-    Top = 263
-    Width = 136
-    Caption = 'Procurar'
+  object DeletarPanel: TPanel
+    Left = 0
+    Height = 456
+    Top = 384
+    Width = 859
+    ClientHeight = 456
+    ClientWidth = 859
     TabOrder = 4
-    OnClick = ProcurarClick
+    object DeletarLabel: TLabel
+      Left = 368
+      Height = 45
+      Top = 128
+      Width = 104
+      Caption = 'Deletar'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object EditDeletar: TEdit
+      Left = 328
+      Height = 36
+      Top = 184
+      Width = 192
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 0
+    end
+    object BtnDeletar: TButton
+      Left = 289
+      Height = 48
+      Top = 240
+      Width = 272
+      Caption = 'BtnDeletar'
+      TabOrder = 1
+      OnClick = BtnDeletarClick
+    end
   end
-  object Deletar: TButton
-    Left = 576
-    Height = 65
-    Top = 264
-    Width = 144
-    Caption = 'Deletar'
+  object ProcurarPanel: TPanel
+    Left = 0
+    Height = 465
+    Top = 374
+    Width = 858
+    ClientHeight = 465
+    ClientWidth = 858
     TabOrder = 5
-    OnClick = DeletarClick
-  end
-  object EditCriar: TEdit
-    Left = 160
-    Height = 36
-    Top = 488
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 6
-    Text = 'EditCriar'
-  end
-  object CriarLabel: TLabel
-    Left = 176
-    Height = 45
-    Top = 448
-    Width = 82
-    Caption = 'Titulo'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object CriarLabel1: TLabel
-    Left = 176
-    Height = 45
-    Top = 552
-    Width = 113
-    Caption = 'AutorID'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object CriarLabel2: TLabel
-    Left = 440
-    Height = 45
-    Top = 432
-    Width = 223
-    Caption = 'Ano Publicação'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object CriarLabel3: TLabel
-    Left = 456
-    Height = 45
-    Top = 552
-    Width = 71
-    Caption = 'ISBN'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object EditCriar2: TEdit
-    Left = 440
-    Height = 36
-    Top = 488
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 7
-    Text = 'EditCriar2'
-  end
-  object EditCriar3: TEdit
-    Left = 160
-    Height = 36
-    Top = 592
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 8
-    Text = 'EditCriar3'
-  end
-  object EditCriar4: TEdit
-    Left = 440
-    Height = 36
-    Top = 592
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 9
-    Text = 'EditCriar4'
-  end
-  object BtnCriar: TButton
-    Left = 319
-    Height = 48
-    Top = 672
-    Width = 272
-    Caption = 'BtnCriar'
-    TabOrder = 10
-    OnClick = BtnCriarClick
-  end
-  object EditProcurar: TEdit
-    Left = 351
-    Height = 36
-    Top = 504
-    Width = 192
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 11
-  end
-  object ProcurarLabel: TLabel
-    Left = 351
-    Height = 45
-    Top = 448
-    Width = 121
-    Caption = 'Procurar'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object BtnProcurar: TButton
-    Left = 319
-    Height = 48
-    Top = 672
-    Width = 272
-    Caption = 'BtnProcurar'
-    TabOrder = 12
-    OnClick = BtnProcurarClick
-  end
-  object DeletarLabel: TLabel
-    Left = 351
-    Height = 45
-    Top = 448
-    Width = 104
-    Caption = 'Deletar'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object EditDeletar: TEdit
-    Left = 351
-    Height = 36
-    Top = 504
-    Width = 192
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 13
-  end
-  object BtnDeletar: TButton
-    Left = 319
-    Height = 48
-    Top = 592
-    Width = 272
-    Caption = 'BtnDeletar'
-    TabOrder = 14
-    OnClick = BtnDeletarClick
-  end
-  object EditAtualizar1: TEdit
-    Left = 176
-    Height = 36
-    Top = 504
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 15
-    Text = 'EditAtualizar1'
-  end
-  object AtualizarLabel4: TLabel
-    Left = 175
-    Height = 45
-    Top = 552
-    Width = 113
-    Caption = 'AutorID'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object AtualizarLabel5: TLabel
-    Left = 456
-    Height = 45
-    Top = 448
-    Width = 223
-    Caption = 'Ano Publicação'
-    Font.Height = -33
-    ParentFont = False
-    OnClick = AtualizarLabel5Click
-  end
-  object AtualizarLabel6: TLabel
-    Left = 456
-    Height = 45
-    Top = 552
-    Width = 71
-    Caption = 'ISBN'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object EditAtualizar5: TEdit
-    Left = 456
-    Height = 36
-    Top = 504
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 16
-    Text = 'EditAtualizar5'
-  end
-  object EditAtualizar6: TEdit
-    Left = 176
-    Height = 36
-    Top = 608
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 17
-    Text = 'EditAtualizar6'
-  end
-  object EditAtualizar7: TEdit
-    Left = 456
-    Height = 36
-    Top = 608
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 18
-    Text = 'EditAtualizar7'
-  end
-  object AtualizarLabel7: TLabel
-    Left = 176
-    Height = 45
-    Top = 448
-    Width = 82
-    Caption = 'Titulo'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object EditAtualizar2: TEdit
-    Left = 304
-    Height = 36
-    Top = 408
-    Width = 256
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 19
-    Text = 'EditAtualizar2'
-  end
-  object AtualizarLabel8: TLabel
-    Left = 415
-    Height = 45
-    Top = 360
-    Width = 32
-    Caption = 'ID'
-    Font.Height = -33
-    ParentFont = False
-  end
-  object BtnAtualizar: TButton
-    Left = 319
-    Height = 48
-    Top = 672
-    Width = 272
-    Caption = 'BtnAtualizar1'
-    TabOrder = 20
-    OnClick = BtnAtualizarClick
+    object EditProcurar: TEdit
+      Left = 328
+      Height = 36
+      Top = 185
+      Width = 192
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ProcurarLabel: TLabel
+      Left = 360
+      Height = 45
+      Top = 136
+      Width = 121
+      Caption = 'Procurar'
+      Font.Height = -33
+      ParentFont = False
+    end
+    object BtnProcurar: TButton
+      Left = 289
+      Height = 48
+      Top = 248
+      Width = 272
+      Caption = 'BtnProcurar'
+      TabOrder = 1
+      OnClick = BtnProcurarClick
+    end
   end
   object DataSource1: TDataSource
     DataSet = ZQuery1

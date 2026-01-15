@@ -1,7 +1,7 @@
 object FrmLogin: TFrmLogin
-  Left = 519
+  Left = 1019
   Height = 667
-  Top = 193
+  Top = 139
   Width = 842
   Caption = 'FrmLogin'
   ClientHeight = 0
@@ -52,5 +52,15 @@ object FrmLogin: TFrmLogin
     Caption = 'Sair'
     TabOrder = 3
     OnClick = btnSairClick
+  end
+  object Topo: TPanel
+    Left = 0
+    Height = 76
+    Top = -8
+    Width = 842
+    Color = clHighlight
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 4
   end
 end

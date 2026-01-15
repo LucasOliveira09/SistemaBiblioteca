@@ -5,8 +5,8 @@ unit uFormEmprestimo;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids, DB,
-  ZDataset, uEmprestimosDAO, uModuloDados;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
+  ExtCtrls, DB, ZDataset, uEmprestimosDAO, uModuloDados;
 
 type
 
@@ -20,6 +20,9 @@ type
     Edit1: TEdit;
     Label1: TLabel;
     Label3: TLabel;
+    EmprestimoPanel: TPanel;
+    DBGridPanel: TPanel;
+    ProcurarID: TPanel;
     Query: TZQuery;
 
 

@@ -5,8 +5,9 @@ unit uFormLivros;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids, DB,
-  ZDataset, ZConnection, uLivro, uLivroDAO, uModuloDados, uLivroService;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
+  ExtCtrls, DB, ZDataset, ZConnection, uLivro, uLivroDAO, uModuloDados,
+  uLivroService;
 
 type
 
@@ -17,10 +18,17 @@ type
     AtualizarLabel6: TLabel;
     AtualizarLabel7: TLabel;
     AtualizarLabel8: TLabel;
+    btnVoltar: TButton;
     // --- BOTÕES DO MENU (Que mostram as telas) ---
     Criar: TButton;
     Atualizar: TButton;
     Deletar: TButton;
+    DBGridPanel: TPanel;
+    AtualizarPanel: TPanel;
+    InserirPanel: TPanel;
+    DeletarPanel: TPanel;
+    ProcurarPanel: TPanel;
+    TopoPanel: TPanel;
     Procurar: TButton;
     Voltar: TButton;
 
@@ -104,50 +112,10 @@ implementation
 // 1. O SEGREDO: Uma função que esconde TODOS os inputs e botões de ação
 procedure TFrmLivros.EsconderTudo;
 begin
-  // Esconde Grupo Criar
-  BtnCriar.Visible := False;
-  CriarLabel.Visible := False;
-  EditCriar.Visible := False;
-  EditCriar2.Visible := False;
-  EditCriar3.Visible := False;
-  EditCriar4.Visible := False;
-  CriarLabel1.Visible := False;
-  CriarLabel2.Visible := False;
-  CriarLabel3.Visible := False;
-  AtualizarLabel4.Visible := False;
-
-  // Esconde Grupo Atualizar
-  BtnAtualizar.Visible := False;
-  EditAtualizar1.Visible := False;
-  EditAtualizar2.Visible := False;
-  EditAtualizar5.Visible := False;
-  EditAtualizar6.Visible := False;
-  EditAtualizar7.Visible := False;
-  AtualizarLabel5.Visible := False;
-  AtualizarLabel8.Visible := False;
-  AtualizarLabel7.Visible := False;
-  AtualizarLabel6.Visible := False;
-  AtualizarLabel4.Visible := False;
-
-
-
-  // Esconde Grupo Deletar
-  BtnDeletar.Visible := False;
-  DeletarLabel.Visible := False;
-  EditDeletar.Visible := False;
-
-  // Esconde Grupo Procurar
-  BtnProcurar.Visible := False;
-  ProcurarLabel.Visible := False;
-  EditProcurar.Visible := False;
-
-  // Grid e Botões de Menu ficam visíveis por padrão,
-  // mas vamos esconder a grid quando estiver editando
-  DBGrid1.Visible := True;
-  Criar.Visible := True;
-  Atualizar.Visible := True;
-  Deletar.Visible := True;
-  Procurar.Visible := True;
+ InserirPanel.Visible := false;
+ DeletarPanel.Visible := false;
+ ProcurarPanel.Visible := false;
+ AtualizarPanel.Visible := false;
 end;
 
 // 2. Inicialização
@@ -180,16 +148,7 @@ procedure TFrmLivros.CriarClick(Sender: TObject);
 begin
   EsconderTudo;
 
-  Criar.Visible := True;
-  CriarLabel.Visible := True;
-  EditCriar.Visible := True;
-  EditCriar2.Visible := True;
-  EditCriar3.Visible := True;
-  EditCriar4.Visible := True;
-  CriarLabel1.Visible := True;
-  CriarLabel2.Visible := True;
-  CriarLabel3.Visible := True;
-  BtnCriar.Visible := True;
+  InserirPanel.Visible := true;
 
   EditCriar.Clear;
   EditCriar2.Clear;
@@ -208,19 +167,7 @@ begin
 
   EsconderTudo;
 
-  BtnAtualizar.Visible := True;
-  EditAtualizar1.Visible := True;
-  EditAtualizar2.Visible := True;
-  EditAtualizar5.Visible := True;
-  EditAtualizar6.Visible := True;
-  EditAtualizar7.Visible := True;
-  AtualizarLabel5.Visible := True;
-  AtualizarLabel8.Visible := True;
-  AtualizarLabel7.Visible := True;
-  AtualizarLabel6.Visible := True;
-  AtualizarLabel4.Visible := True;
-
-
+  AtualizarPanel.Visible := true;
 
   EditAtualizar2.Text := ZQuery1.FieldByName('ID').AsString;
   EditAtualizar1.Text := ZQuery1.FieldByName('TITULO').AsString;
@@ -240,9 +187,7 @@ begin
 
   EsconderTudo;
 
-  BtnDeletar.Visible := True;
-  DeletarLabel.Visible := True;
-  EditDeletar.Visible := True;
+  DeletarPanel.Visible := true;
 
   EditDeletar.Text := ZQuery1.FieldByName('ID').AsString;
 end;
@@ -251,9 +196,7 @@ procedure TFrmLivros.ProcurarClick(Sender: TObject);
 begin
   EsconderTudo;
 
-  BtnProcurar.Visible := True;
-  ProcurarLabel.Visible := True;
-  EditProcurar.Visible := True;
+  ProcurarPanel.Visible := true;
 
   EditProcurar.SetFocus;
 end;

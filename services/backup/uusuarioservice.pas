@@ -54,13 +54,6 @@ begin
       Exit;
     end;
 
-    IsAtivo := Qry.FieldByName('ATIVO').AsBoolean;
-    if not IsAtivo then
-    begin
-      MsgErro := 'Usuário inativo. Acesso negado.';
-      Exit;
-    end;
-
     SenhaBanco := Qry.FieldByName('SENHA').AsString;
     if ASenha <> SenhaBanco then
     begin

@@ -5,7 +5,8 @@ unit uFormLogin;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, MaskEdit, uUsuarioService;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, MaskEdit,
+  ExtCtrls, uUsuarioService;
 
 type
 
@@ -17,6 +18,7 @@ type
     edtEmail: TEdit;
     edtSenha: TEdit;
     Label1: TLabel;
+    Topo: TPanel;
     procedure btnEntrarClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
     procedure FormShow(Sender: TObject);

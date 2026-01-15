@@ -1,77 +1,108 @@
 object FrmEmprestimo: TFrmEmprestimo
-  Left = 483
-  Height = 675
-  Top = 195
+  Left = 890
+  Height = 687
+  Top = 170
   Width = 864
   Caption = 'FrmEmprestimo'
   ClientHeight = 0
   ClientWidth = 0
   LCLVersion = '4.4.0.0'
   OnShow = FormShow
-  object DBGrid: TDBGrid
-    Left = 104
-    Height = 208
-    Top = 160
-    Width = 640
-    Color = clWindow
-    Columns = <>
-    DataSource = DataSource
-    TabOrder = 0
-  end
-  object Label3: TLabel
-    Left = 280
-    Height = 58
-    Top = 80
-    Width = 265
-    Caption = 'EMPRESTIMO'
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clNavy
-    Font.Height = -47
-    Font.Name = 'Sharkartoon'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-  end
-  object Button1: TButton
-    Left = 281
-    Height = 57
-    Top = 504
-    Width = 264
-    Caption = 'Procurar'
-    TabOrder = 1
-    OnClick = Button1Click
-  end
-  object Edit1: TEdit
-    Left = 264
-    Height = 36
-    Top = 456
-    Width = 301
-    Font.Height = -20
-    ParentFont = False
-    TabOrder = 2
-    OnChange = Edit1Change
-  end
-  object Label1: TLabel
-    Left = 400
-    Height = 35
-    Top = 408
-    Width = 24
-    Caption = 'ID:'
-    Font.CharSet = ANSI_CHARSET
-    Font.Height = -27
-    Font.Name = 'Staubach'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-  end
-  object Button2: TButton
+  object EmprestimoPanel: TPanel
     Left = 0
-    Height = 57
+    Height = 90
     Top = 0
-    Width = 179
-    Caption = 'Voltar'
-    TabOrder = 3
-    OnClick = Button2Click
+    Width = 866
+    ClientHeight = 90
+    ClientWidth = 866
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object Label3: TLabel
+      Left = 304
+      Height = 58
+      Top = 8
+      Width = 265
+      Caption = 'EMPRESTIMO'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -47
+      Font.Name = 'Sharkartoon'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+    end
+    object Button2: TButton
+      Left = 16
+      Height = 57
+      Top = 16
+      Width = 136
+      Caption = 'Voltar'
+      TabOrder = 0
+      OnClick = Button2Click
+    end
+  end
+  object DBGridPanel: TPanel
+    Left = 2
+    Height = 256
+    Top = 89
+    Width = 864
+    ClientHeight = 256
+    ClientWidth = 864
+    ParentBackground = False
+    TabOrder = 1
+    object DBGrid: TDBGrid
+      Left = 104
+      Height = 208
+      Top = 24
+      Width = 640
+      Color = clWindow
+      Columns = <>
+      DataSource = DataSource
+      TabOrder = 0
+    end
+  end
+  object ProcurarID: TPanel
+    Left = 0
+    Height = 323
+    Top = 348
+    Width = 862
+    ClientHeight = 323
+    ClientWidth = 862
+    TabOrder = 2
+    object Button1: TButton
+      Left = 272
+      Height = 57
+      Top = 144
+      Width = 264
+      Caption = 'Procurar'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Edit1: TEdit
+      Left = 256
+      Height = 36
+      Top = 80
+      Width = 301
+      Font.Height = -20
+      ParentFont = False
+      TabOrder = 1
+      OnChange = Edit1Change
+    end
+    object Label1: TLabel
+      Left = 400
+      Height = 35
+      Top = 32
+      Width = 24
+      Caption = 'ID:'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -27
+      Font.Name = 'Staubach'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+    end
   end
   object DataSource: TDataSource
     DataSet = Query

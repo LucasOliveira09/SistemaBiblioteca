@@ -1,11 +1,11 @@
 object FrmLogin: TFrmLogin
-  Left = 1042
+  Left = 519
   Height = 667
-  Top = 99
+  Top = 193
   Width = 842
   Caption = 'FrmLogin'
-  ClientHeight = 667
-  ClientWidth = 842
+  ClientHeight = 0
+  ClientWidth = 0
   LCLVersion = '4.4.0.0'
   object Label1: TLabel
     Left = 368
